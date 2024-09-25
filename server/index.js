@@ -12,7 +12,15 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(cors());
+app.use(
+    cors({
+      origin:
+        process.env.CORS_ORIGIN === "*"
+          ? "*" 
+          : process.env.CORS_ORIGIN?.split(","),
+      credentials: true,
+    })
+);
 app.use(express.json());
 
 // Routes
