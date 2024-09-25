@@ -167,11 +167,11 @@ const App = () => {
             <h2>Links:</h2>
             <ul>
               <li>
-                <a href="">GitHub Repository</a>
+                <a href="https://github.com/yashg0808/train_seat_reservation">GitHub Repository</a>
               </li>
               <br />
               <li>
-                <a href="">Live Link</a>
+                <a href="https://train-seat-reservation-delta.vercel.app/">Live Link</a>
               </li>
             </ul>
           </div>

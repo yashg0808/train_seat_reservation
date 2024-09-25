@@ -12,7 +12,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
 const seats = [];
 let seatNumber = 1;
 
-for (let row = 1; row <= 10; row++) {
+for (let row = 1; row <= 11; row++) {
   for (let i = 0; i < 7; i++) {
     seats.push({ seatNumber: `S${seatNumber}`, row, isBooked: false });
     seatNumber++;
@@ -21,7 +21,7 @@ for (let row = 1; row <= 10; row++) {
 
 // Last row has only 3 seats
 for (let i = 0; i < 3; i++) {
-  seats.push({ seatNumber: `S${seatNumber}`, row: 11, isBooked: false });
+  seats.push({ seatNumber: `S${seatNumber}`, row: 12, isBooked: false });
   seatNumber++;
 }
 
