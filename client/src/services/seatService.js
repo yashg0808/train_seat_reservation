@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://train-seat-reservation-backend.vercel.app/api";
 
 // Get all seats from the backend
 export const getSeats = async () => {
