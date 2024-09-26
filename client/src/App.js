@@ -145,7 +145,7 @@ const App = () => {
             <pre>{`
               {
                 seatNumber: String,  // e.g., "S1", "S2"
-                row: Number,         // Row number (1 to 11)
+                row: Number,         // Row number (1 to 12)
                 isBooked: Boolean    // Booking status (true or false)
               }
               `}</pre>
@@ -158,7 +158,7 @@ const App = () => {
                 { "_id": "64f7b31c2b123456789abcf", "seatNumber": "S3", "row": 1, "isBooked": false },
                 { "_id": "64f7b31c2b123456789abcg", "seatNumber": "S4", "row": 1, "isBooked": true },
                 ...
-                { "_id": "64f7b31c2b123456789abcn", "seatNumber": "S80", "row": 11, "isBooked": false }
+                { "_id": "64f7b31c2b123456789abcn", "seatNumber": "S80", "row": 12, "isBooked": false }
               ]
               `}</pre>
           </div>
